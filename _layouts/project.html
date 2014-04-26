@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<script src="/js/jquery-1.11.0.min.js"></script>
+<script src="/js/lightbox.min.js"></script>
+<link href="/css/lightbox.css" rel="stylesheet" />
+
+<h2>{{ page.title }}</h2>
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<div>
+    {% for image in page.gallery %}
+        <a href="/postimages/{{page.postimagedir}}/{{image[0]}}" data-lightbox="project-gallery" data-title="{{image[1]}}">
+            <img src="/postimages/{{page.postimagedir}}//{{image[0]}}" class="lb-thumbnail">
+        </a>
+    {% endfor %}
+</div>
+
+<div class="post">
+{{ content }}
+</div>

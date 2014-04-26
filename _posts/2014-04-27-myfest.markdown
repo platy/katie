@@ -1,0 +1,16 @@
+---
+layout: project
+title:  "Rocking in MyFest"
+date:   2014-04-26 19:18:43
+categories: MyFest
+postimagedir: myfest
+gallery:
+  myfest1.jpeg: "Image 1 - hello"
+  myfest2.jpeg: "Image 2"
+  myfest3.jpeg: "Image 3 - hello"
+coverimage: myfest1.jpeg
+---
+
+Witness the audience through connection. Building on the space we create. Moving to the sounds we trigger and the rhythms within us. In the middle of MyFest.
+
+Sound: Travis McCoy Fuller
