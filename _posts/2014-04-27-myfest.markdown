@@ -3,7 +3,7 @@ layout: project
 
 title:  "Rocking in MyFest"
 date:   2014-04-26 19:18:43
-categories: MyFest
+categories: 
 postimagedir: myfest
 gallery:
   &COVER myfest1.jpeg: "Image 1 - hello"
