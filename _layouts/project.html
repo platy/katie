@@ -10,8 +10,8 @@ layout: default
 
 <div>
     {% for image in page.gallery %}
-        <a href="/postimages/{{page.postimagedir}}/{{image[0]}}" data-lightbox="project-gallery" data-title="{{image[1]}}">
-            <img src="/postimages/{{page.postimagedir}}//{{image[0]}}" class="lb-thumbnail">
+        <a href="../../../../postimages/{{page.postimagedir}}/{{image[0]}}" data-lightbox="project-gallery" data-title="{{image[1]}}">
+            <div style="background-image: url('../../../../postimages/{{page.postimagedir}}//{{image[0]}}')" class="lb-thumbnail" ></div>
         </a>
     {% endfor %}
 </div>

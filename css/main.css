@@ -166,4 +166,20 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 .lb-thumbnail {
-  width: 7rem
+  width: 7rem;
+  height: 5rem;
+  background-position: center;
+
+  /* Make the background image cover the area of the <div>, and clip the excess */
+  background-size: cover;
+  display: inline-block;
+}
+
+.project-thumbnail {
+  width: 18rem;
+  height: 12rem;
+  background-position: center;
+
+  /* Make the background image cover the area of the <div>, and clip the excess */
+  background-size: cover;
+}
